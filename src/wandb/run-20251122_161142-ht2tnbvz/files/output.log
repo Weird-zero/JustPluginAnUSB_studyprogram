@@ -1,0 +1,1685 @@
+feat_dim is:  512
+feat_dim is:  512
+pc_feature.size is 3072
+pc_feature.size is 3072
+100% |######################################################################|
+fileA is /home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/plate_kettle/21/partA-pc.csv
+fileB is /home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/plate_kettle/21/partB-pc.csv
+file not exists
+Len of Train Data:  355
+100% |######################################################################|
+fileA is /home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/plug_in_socket/15/partA-pc.csv
+fileB is /home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/plug_in_socket/15/partB-pc.csv
+file not exists
+Len of Val Data:  159
+[33mNumber of batches in val_dataloader: 40[0m
+[33mNumber of samples in val_data: 159[0m
+  0%|                                     | 1/1000 [00:22<6:22:52, 23.00s/it]
+[1;32m Epoch 1 In training [0m
+**********
+1 0
+46.04767
+**********
+1 50
+118.124435
+**********
+1 0
+**********
+[1;32m Epoch 1 In validation [0m
+avg_gd:  tensor(44.5880, device='cuda:0')
+avg_r:  tensor(89.1759, device='cuda:0')
+avg_t:  tensor(0.2788, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.7309, device='cuda:0')
+[1;32m Epoch 2 In training [0m
+**********
+2 0
+87.870636
+**********
+2 50
+53.927853
+**********
+2 0
+**********
+[1;32m Epoch 2 In validation [0m
+avg_gd:  tensor(42.2053, device='cuda:0')
+avg_r:  tensor(84.4107, device='cuda:0')
+avg_t:  tensor(0.2453, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.5891, device='cuda:0')
+[1;32m Epoch 3 In training [0m
+**********
+3 0
+35.43024
+**********
+3 50
+104.382935
+**********
+3 0
+**********
+[1;32m Epoch 3 In validation [0m
+avg_gd:  tensor(41.8973, device='cuda:0')
+avg_r:  tensor(83.7946, device='cuda:0')
+avg_t:  tensor(0.2109, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.4676, device='cuda:0')
+[1;32m Epoch 4 In training [0m
+**********
+4 0
+72.19505
+**********
+4 50
+31.718952
+**********
+4 0
+**********
+[1;32m Epoch 4 In validation [0m
+avg_gd:  tensor(40.3655, device='cuda:0')
+avg_r:  tensor(80.7311, device='cuda:0')
+avg_t:  tensor(0.2059, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.4916, device='cuda:0')
+[1;32m Epoch 5 In training [0m
+**********
+5 0
+115.95005
+**********
+5 50
+74.65937
+**********
+5 0
+**********
+[1;32m Epoch 5 In validation [0m
+avg_gd:  tensor(40.7986, device='cuda:0')
+avg_r:  tensor(81.5973, device='cuda:0')
+avg_t:  tensor(0.1879, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.4511, device='cuda:0')
+[1;32m Epoch 6 In training [0m
+**********
+6 0
+33.770294
+**********
+6 50
+61.430286
+**********
+6 0
+**********
+[1;32m Epoch 6 In validation [0m
+avg_gd:  tensor(36.4166, device='cuda:0')
+avg_r:  tensor(72.8332, device='cuda:0')
+avg_t:  tensor(0.1813, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.4272, device='cuda:0')
+[1;32m Epoch 7 In training [0m
+**********
+7 0
+32.91334
+**********
+7 50
+90.01379
+**********
+7 0
+**********
+[1;32m Epoch 7 In validation [0m
+avg_gd:  tensor(37.7946, device='cuda:0')
+avg_r:  tensor(75.5892, device='cuda:0')
+avg_t:  tensor(0.1788, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.4139, device='cuda:0')
+[1;32m Epoch 8 In training [0m
+**********
+8 0
+138.69684
+**********
+8 50
+98.99973
+**********
+8 0
+**********
+[1;32m Epoch 8 In validation [0m
+avg_gd:  tensor(35.7909, device='cuda:0')
+avg_r:  tensor(71.5819, device='cuda:0')
+avg_t:  tensor(0.1742, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3981, device='cuda:0')
+[1;32m Epoch 9 In training [0m
+**********
+9 0
+87.91074
+**********
+9 50
+92.87005
+**********
+9 0
+**********
+[1;32m Epoch 9 In validation [0m
+avg_gd:  tensor(36.7958, device='cuda:0')
+avg_r:  tensor(73.5915, device='cuda:0')
+avg_t:  tensor(0.1769, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.4019, device='cuda:0')
+[1;32m Epoch 10 In training [0m
+**********
+10 0
+78.26127
+**********
+10 50
+58.812153
+**********
+10 0
+**********
+[1;32m Epoch 10 In validation [0m
+avg_gd:  tensor(36.7772, device='cuda:0')
+avg_r:  tensor(73.5544, device='cuda:0')
+avg_t:  tensor(0.1748, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3933, device='cuda:0')
+[1;32m Epoch 11 In training [0m
+**********
+11 0
+76.62454
+**********
+11 50
+90.856766
+**********
+11 0
+**********
+[1;32m Epoch 11 In validation [0m
+avg_gd:  tensor(34.1809, device='cuda:0')
+avg_r:  tensor(68.3618, device='cuda:0')
+avg_t:  tensor(0.1768, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.4043, device='cuda:0')
+[1;32m Epoch 12 In training [0m
+**********
+12 0
+34.157314
+**********
+12 50
+41.075466
+**********
+12 0
+**********
+[1;32m Epoch 12 In validation [0m
+avg_gd:  tensor(35.3827, device='cuda:0')
+avg_r:  tensor(70.7654, device='cuda:0')
+avg_t:  tensor(0.1775, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3970, device='cuda:0')
+[1;32m Epoch 13 In training [0m
+**********
+13 0
+42.977203
+**********
+13 50
+37.36738
+**********
+13 0
+**********
+[1;32m Epoch 13 In validation [0m
+avg_gd:  tensor(35.5910, device='cuda:0')
+avg_r:  tensor(71.1819, device='cuda:0')
+avg_t:  tensor(0.1646, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3523, device='cuda:0')
+[1;32m Epoch 14 In training [0m
+**********
+14 0
+55.60879
+**********
+14 50
+58.727844
+**********
+14 0
+**********
+[1;32m Epoch 14 In validation [0m
+avg_gd:  tensor(35.4435, device='cuda:0')
+avg_r:  tensor(70.8869, device='cuda:0')
+avg_t:  tensor(0.1703, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3846, device='cuda:0')
+[1;32m Epoch 15 In training [0m
+**********
+15 0
+33.78606
+**********
+15 50
+79.52272
+**********
+15 0
+**********
+[1;32m Epoch 15 In validation [0m
+avg_gd:  tensor(32.7337, device='cuda:0')
+avg_r:  tensor(65.4673, device='cuda:0')
+avg_t:  tensor(0.1678, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3457, device='cuda:0')
+[1;32m Epoch 16 In training [0m
+**********
+16 0
+61.21504
+**********
+16 50
+65.622185
+**********
+16 0
+**********
+[1;32m Epoch 16 In validation [0m
+avg_gd:  tensor(33.5804, device='cuda:0')
+avg_r:  tensor(67.1608, device='cuda:0')
+avg_t:  tensor(0.1608, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3377, device='cuda:0')
+[1;32m Epoch 17 In training [0m
+**********
+17 0
+36.160027
+**********
+17 50
+84.879684
+**********
+17 0
+**********
+[1;32m Epoch 17 In validation [0m
+avg_gd:  tensor(30.6950, device='cuda:0')
+avg_r:  tensor(61.3899, device='cuda:0')
+avg_t:  tensor(0.1671, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3688, device='cuda:0')
+[1;32m Epoch 18 In training [0m
+**********
+18 0
+65.88252
+**********
+18 50
+33.822063
+**********
+18 0
+**********
+[1;32m Epoch 18 In validation [0m
+avg_gd:  tensor(33.3171, device='cuda:0')
+avg_r:  tensor(66.6341, device='cuda:0')
+avg_t:  tensor(0.1579, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3660, device='cuda:0')
+[1;32m Epoch 19 In training [0m
+**********
+19 0
+56.003197
+**********
+19 50
+69.35316
+**********
+19 0
+**********
+[1;32m Epoch 19 In validation [0m
+avg_gd:  tensor(32.9478, device='cuda:0')
+avg_r:  tensor(65.8957, device='cuda:0')
+avg_t:  tensor(0.1627, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3821, device='cuda:0')
+[1;32m Epoch 20 In training [0m
+**********
+20 0
+54.396053
+**********
+20 50
+30.32435
+**********
+20 0
+**********
+[1;32m Epoch 20 In validation [0m
+avg_gd:  tensor(32.7702, device='cuda:0')
+avg_r:  tensor(65.5404, device='cuda:0')
+avg_t:  tensor(0.1595, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3318, device='cuda:0')
+[1;32m Epoch 21 In training [0m
+**********
+21 0
+72.507904
+**********
+21 50
+87.77402
+**********
+21 0
+**********
+[1;32m Epoch 21 In validation [0m
+avg_gd:  tensor(32.2913, device='cuda:0')
+avg_r:  tensor(64.5826, device='cuda:0')
+avg_t:  tensor(0.1612, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3650, device='cuda:0')
+[1;32m Epoch 22 In training [0m
+**********
+22 0
+54.354084
+**********
+22 50
+66.165
+**********
+22 0
+**********
+[1;32m Epoch 22 In validation [0m
+avg_gd:  tensor(31.6724, device='cuda:0')
+avg_r:  tensor(63.3448, device='cuda:0')
+avg_t:  tensor(0.1587, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3363, device='cuda:0')
+[1;32m Epoch 23 In training [0m
+**********
+23 0
+53.71471
+**********
+23 50
+76.15901
+**********
+23 0
+**********
+[1;32m Epoch 23 In validation [0m
+avg_gd:  tensor(31.7694, device='cuda:0')
+avg_r:  tensor(63.5387, device='cuda:0')
+avg_t:  tensor(0.1595, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3450, device='cuda:0')
+[1;32m Epoch 24 In training [0m
+**********
+24 0
+108.748
+**********
+24 50
+21.49459
+**********
+24 0
+**********
+[1;32m Epoch 24 In validation [0m
+avg_gd:  tensor(33.2233, device='cuda:0')
+avg_r:  tensor(66.4467, device='cuda:0')
+avg_t:  tensor(0.1562, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3393, device='cuda:0')
+[1;32m Epoch 25 In training [0m
+**********
+25 0
+51.00274
+**********
+25 50
+59.609062
+**********
+25 0
+**********
+[1;32m Epoch 25 In validation [0m
+avg_gd:  tensor(30.3409, device='cuda:0')
+avg_r:  tensor(60.6818, device='cuda:0')
+avg_t:  tensor(0.1534, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3436, device='cuda:0')
+[1;32m Epoch 26 In training [0m
+**********
+26 0
+79.59991
+**********
+26 50
+85.19159
+**********
+26 0
+**********
+[1;32m Epoch 26 In validation [0m
+avg_gd:  tensor(32.4942, device='cuda:0')
+avg_r:  tensor(64.9883, device='cuda:0')
+avg_t:  tensor(0.1578, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3443, device='cuda:0')
+[1;32m Epoch 27 In training [0m
+**********
+27 0
+38.275
+**********
+27 50
+63.532276
+**********
+27 0
+**********
+[1;32m Epoch 27 In validation [0m
+avg_gd:  tensor(31.7040, device='cuda:0')
+avg_r:  tensor(63.4080, device='cuda:0')
+avg_t:  tensor(0.1543, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3682, device='cuda:0')
+[1;32m Epoch 28 In training [0m
+**********
+28 0
+50.244526
+**********
+28 50
+58.331657
+**********
+28 0
+**********
+[1;32m Epoch 28 In validation [0m
+avg_gd:  tensor(30.9251, device='cuda:0')
+avg_r:  tensor(61.8502, device='cuda:0')
+avg_t:  tensor(0.1556, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3248, device='cuda:0')
+[1;32m Epoch 29 In training [0m
+**********
+29 0
+51.43998
+**********
+29 50
+46.027153
+**********
+29 0
+**********
+[1;32m Epoch 29 In validation [0m
+avg_gd:  tensor(32.1835, device='cuda:0')
+avg_r:  tensor(64.3671, device='cuda:0')
+avg_t:  tensor(0.1543, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3606, device='cuda:0')
+[1;32m Epoch 30 In training [0m
+**********
+30 0
+92.55513
+**********
+30 50
+65.61711
+**********
+30 0
+**********
+[1;32m Epoch 30 In validation [0m
+avg_gd:  tensor(31.0524, device='cuda:0')
+avg_r:  tensor(62.1048, device='cuda:0')
+avg_t:  tensor(0.1617, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3620, device='cuda:0')
+[1;32m Epoch 31 In training [0m
+**********
+31 0
+36.459442
+**********
+31 50
+27.44988
+**********
+31 0
+**********
+[1;32m Epoch 31 In validation [0m
+avg_gd:  tensor(32.0724, device='cuda:0')
+avg_r:  tensor(64.1449, device='cuda:0')
+avg_t:  tensor(0.1575, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3331, device='cuda:0')
+[1;32m Epoch 32 In training [0m
+**********
+32 0
+40.8554
+**********
+32 50
+104.80935
+**********
+32 0
+**********
+[1;32m Epoch 32 In validation [0m
+avg_gd:  tensor(33.1432, device='cuda:0')
+avg_r:  tensor(66.2864, device='cuda:0')
+avg_t:  tensor(0.1543, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3526, device='cuda:0')
+[1;32m Epoch 33 In training [0m
+**********
+33 0
+61.689774
+**********
+33 50
+80.2028
+**********
+33 0
+**********
+[1;32m Epoch 33 In validation [0m
+avg_gd:  tensor(32.2603, device='cuda:0')
+avg_r:  tensor(64.5205, device='cuda:0')
+avg_t:  tensor(0.1550, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3464, device='cuda:0')
+[1;32m Epoch 34 In training [0m
+**********
+34 0
+68.76771
+**********
+34 50
+80.81956
+**********
+34 0
+**********
+[1;32m Epoch 34 In validation [0m
+avg_gd:  tensor(31.2774, device='cuda:0')
+avg_r:  tensor(62.5549, device='cuda:0')
+avg_t:  tensor(0.1555, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3431, device='cuda:0')
+[1;32m Epoch 35 In training [0m
+**********
+35 0
+34.264675
+**********
+35 50
+62.21401
+**********
+35 0
+**********
+[1;32m Epoch 35 In validation [0m
+avg_gd:  tensor(30.5706, device='cuda:0')
+avg_r:  tensor(61.1411, device='cuda:0')
+avg_t:  tensor(0.1494, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3202, device='cuda:0')
+[1;32m Epoch 36 In training [0m
+**********
+36 0
+55.075478
+**********
+36 50
+50.73991
+**********
+36 0
+**********
+[1;32m Epoch 36 In validation [0m
+avg_gd:  tensor(31.8778, device='cuda:0')
+avg_r:  tensor(63.7555, device='cuda:0')
+avg_t:  tensor(0.1584, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3702, device='cuda:0')
+[1;32m Epoch 37 In training [0m
+**********
+37 0
+30.441591
+**********
+37 50
+100.23036
+**********
+37 0
+**********
+[1;32m Epoch 37 In validation [0m
+avg_gd:  tensor(29.6691, device='cuda:0')
+avg_r:  tensor(59.3383, device='cuda:0')
+avg_t:  tensor(0.1587, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3506, device='cuda:0')
+[1;32m Epoch 38 In training [0m
+**********
+38 0
+26.796654
+**********
+38 50
+67.73696
+**********
+38 0
+**********
+[1;32m Epoch 38 In validation [0m
+avg_gd:  tensor(28.0699, device='cuda:0')
+avg_r:  tensor(56.1399, device='cuda:0')
+avg_t:  tensor(0.1518, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3264, device='cuda:0')
+[1;32m Epoch 39 In training [0m
+**********
+39 0
+70.44877
+**********
+39 50
+89.59643
+**********
+39 0
+**********
+[1;32m Epoch 39 In validation [0m
+avg_gd:  tensor(30.5119, device='cuda:0')
+avg_r:  tensor(61.0238, device='cuda:0')
+avg_t:  tensor(0.1564, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3227, device='cuda:0')
+[1;32m Epoch 40 In training [0m
+**********
+40 0
+55.64425
+**********
+40 50
+75.94587
+**********
+40 0
+**********
+[1;32m Epoch 40 In validation [0m
+avg_gd:  tensor(28.6413, device='cuda:0')
+avg_r:  tensor(57.2826, device='cuda:0')
+avg_t:  tensor(0.1500, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2981, device='cuda:0')
+[1;32m Epoch 41 In training [0m
+**********
+41 0
+49.40637
+**********
+41 50
+29.363583
+**********
+41 0
+**********
+[1;32m Epoch 41 In validation [0m
+avg_gd:  tensor(30.1115, device='cuda:0')
+avg_r:  tensor(60.2230, device='cuda:0')
+avg_t:  tensor(0.1542, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3231, device='cuda:0')
+[1;32m Epoch 42 In training [0m
+**********
+42 0
+21.877407
+**********
+42 50
+70.46242
+**********
+42 0
+**********
+[1;32m Epoch 42 In validation [0m
+avg_gd:  tensor(28.7765, device='cuda:0')
+avg_r:  tensor(57.5530, device='cuda:0')
+avg_t:  tensor(0.1520, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3347, device='cuda:0')
+[1;32m Epoch 43 In training [0m
+**********
+43 0
+68.39986
+**********
+43 50
+75.53257
+**********
+43 0
+**********
+[1;32m Epoch 43 In validation [0m
+avg_gd:  tensor(34.3498, device='cuda:0')
+avg_r:  tensor(68.6996, device='cuda:0')
+avg_t:  tensor(0.1614, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3834, device='cuda:0')
+[1;32m Epoch 44 In training [0m
+**********
+44 0
+87.165276
+**********
+44 50
+91.1817
+**********
+44 0
+**********
+[1;32m Epoch 44 In validation [0m
+avg_gd:  tensor(31.9944, device='cuda:0')
+avg_r:  tensor(63.9887, device='cuda:0')
+avg_t:  tensor(0.1610, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3705, device='cuda:0')
+[1;32m Epoch 45 In training [0m
+**********
+45 0
+22.951433
+**********
+45 50
+28.622334
+**********
+45 0
+**********
+[1;32m Epoch 45 In validation [0m
+avg_gd:  tensor(29.9322, device='cuda:0')
+avg_r:  tensor(59.8643, device='cuda:0')
+avg_t:  tensor(0.1520, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3372, device='cuda:0')
+[1;32m Epoch 46 In training [0m
+**********
+46 0
+77.74419
+**********
+46 50
+42.123886
+**********
+46 0
+**********
+[1;32m Epoch 46 In validation [0m
+avg_gd:  tensor(32.0749, device='cuda:0')
+avg_r:  tensor(64.1498, device='cuda:0')
+avg_t:  tensor(0.1553, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3473, device='cuda:0')
+[1;32m Epoch 47 In training [0m
+**********
+47 0
+34.683273
+**********
+47 50
+28.942745
+**********
+47 0
+**********
+[1;32m Epoch 47 In validation [0m
+avg_gd:  tensor(29.9729, device='cuda:0')
+avg_r:  tensor(59.9459, device='cuda:0')
+avg_t:  tensor(0.1636, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3565, device='cuda:0')
+[1;32m Epoch 48 In training [0m
+**********
+48 0
+44.46103
+**********
+48 50
+34.967304
+**********
+48 0
+**********
+[1;32m Epoch 48 In validation [0m
+avg_gd:  tensor(28.6796, device='cuda:0')
+avg_r:  tensor(57.3591, device='cuda:0')
+avg_t:  tensor(0.1520, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3406, device='cuda:0')
+[1;32m Epoch 49 In training [0m
+**********
+49 0
+52.846664
+**********
+49 50
+47.929058
+**********
+49 0
+**********
+[1;32m Epoch 49 In validation [0m
+avg_gd:  tensor(29.2634, device='cuda:0')
+avg_r:  tensor(58.5267, device='cuda:0')
+avg_t:  tensor(0.1635, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3654, device='cuda:0')
+[1;32m Epoch 50 In training [0m
+**********
+50 0
+87.441055
+**********
+50 50
+58.01561
+**********
+50 0
+**********
+[1;32m Epoch 50 In validation [0m
+avg_gd:  tensor(30.8379, device='cuda:0')
+avg_r:  tensor(61.6758, device='cuda:0')
+avg_t:  tensor(0.1504, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3289, device='cuda:0')
+[1;32m Epoch 51 In training [0m
+**********
+51 0
+37.197468
+**********
+51 50
+50.385284
+**********
+51 0
+**********
+[1;32m Epoch 51 In validation [0m
+avg_gd:  tensor(31.0741, device='cuda:0')
+avg_r:  tensor(62.1482, device='cuda:0')
+avg_t:  tensor(0.1555, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3192, device='cuda:0')
+[1;32m Epoch 52 In training [0m
+**********
+52 0
+24.396507
+**********
+52 50
+66.81084
+**********
+52 0
+**********
+[1;32m Epoch 52 In validation [0m
+avg_gd:  tensor(27.4997, device='cuda:0')
+avg_r:  tensor(54.9995, device='cuda:0')
+avg_t:  tensor(0.1551, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3487, device='cuda:0')
+[1;32m Epoch 53 In training [0m
+**********
+53 0
+67.57778
+**********
+53 50
+46.05145
+**********
+53 0
+**********
+[1;32m Epoch 53 In validation [0m
+avg_gd:  tensor(30.3292, device='cuda:0')
+avg_r:  tensor(60.6584, device='cuda:0')
+avg_t:  tensor(0.1544, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3582, device='cuda:0')
+[1;32m Epoch 54 In training [0m
+**********
+54 0
+53.729836
+**********
+54 50
+52.75346
+**********
+54 0
+**********
+[1;32m Epoch 54 In validation [0m
+avg_gd:  tensor(29.3867, device='cuda:0')
+avg_r:  tensor(58.7734, device='cuda:0')
+avg_t:  tensor(0.1465, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3402, device='cuda:0')
+[1;32m Epoch 55 In training [0m
+**********
+55 0
+81.659035
+**********
+55 50
+57.332886
+**********
+55 0
+**********
+[1;32m Epoch 55 In validation [0m
+avg_gd:  tensor(27.7012, device='cuda:0')
+avg_r:  tensor(55.4025, device='cuda:0')
+avg_t:  tensor(0.1517, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3087, device='cuda:0')
+[1;32m Epoch 56 In training [0m
+**********
+56 0
+88.02949
+**********
+56 50
+24.060982
+**********
+56 0
+**********
+[1;32m Epoch 56 In validation [0m
+avg_gd:  tensor(28.2079, device='cuda:0')
+avg_r:  tensor(56.4159, device='cuda:0')
+avg_t:  tensor(0.1446, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3325, device='cuda:0')
+[1;32m Epoch 57 In training [0m
+**********
+57 0
+101.463554
+**********
+57 50
+41.8304
+**********
+57 0
+**********
+[1;32m Epoch 57 In validation [0m
+avg_gd:  tensor(27.0296, device='cuda:0')
+avg_r:  tensor(54.0593, device='cuda:0')
+avg_t:  tensor(0.1496, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3362, device='cuda:0')
+[1;32m Epoch 58 In training [0m
+**********
+58 0
+23.023203
+**********
+58 50
+20.422802
+**********
+58 0
+**********
+[1;32m Epoch 58 In validation [0m
+avg_gd:  tensor(30.8742, device='cuda:0')
+avg_r:  tensor(61.7483, device='cuda:0')
+avg_t:  tensor(0.1540, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3561, device='cuda:0')
+[1;32m Epoch 59 In training [0m
+**********
+59 0
+65.58671
+**********
+59 50
+34.598904
+**********
+59 0
+**********
+[1;32m Epoch 59 In validation [0m
+avg_gd:  tensor(28.4896, device='cuda:0')
+avg_r:  tensor(56.9792, device='cuda:0')
+avg_t:  tensor(0.1456, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2974, device='cuda:0')
+[1;32m Epoch 60 In training [0m
+**********
+60 0
+43.73353
+**********
+60 50
+94.40255
+**********
+60 0
+**********
+[1;32m Epoch 60 In validation [0m
+avg_gd:  tensor(28.0976, device='cuda:0')
+avg_r:  tensor(56.1951, device='cuda:0')
+avg_t:  tensor(0.1564, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3417, device='cuda:0')
+[1;32m Epoch 61 In training [0m
+**********
+61 0
+41.955986
+**********
+61 50
+30.063076
+**********
+61 0
+**********
+[1;32m Epoch 61 In validation [0m
+avg_gd:  tensor(30.2759, device='cuda:0')
+avg_r:  tensor(60.5518, device='cuda:0')
+avg_t:  tensor(0.1460, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2996, device='cuda:0')
+[1;32m Epoch 62 In training [0m
+**********
+62 0
+37.03532
+**********
+62 50
+67.452324
+**********
+62 0
+**********
+[1;32m Epoch 62 In validation [0m
+avg_gd:  tensor(29.3875, device='cuda:0')
+avg_r:  tensor(58.7751, device='cuda:0')
+avg_t:  tensor(0.1492, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3270, device='cuda:0')
+[1;32m Epoch 63 In training [0m
+**********
+63 0
+28.924522
+**********
+63 50
+29.888489
+**********
+63 0
+**********
+[1;32m Epoch 63 In validation [0m
+avg_gd:  tensor(29.3732, device='cuda:0')
+avg_r:  tensor(58.7464, device='cuda:0')
+avg_t:  tensor(0.1441, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3453, device='cuda:0')
+[1;32m Epoch 64 In training [0m
+**********
+64 0
+73.762596
+**********
+64 50
+27.5789
+**********
+64 0
+**********
+[1;32m Epoch 64 In validation [0m
+avg_gd:  tensor(29.0131, device='cuda:0')
+avg_r:  tensor(58.0262, device='cuda:0')
+avg_t:  tensor(0.1479, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2976, device='cuda:0')
+[1;32m Epoch 65 In training [0m
+**********
+65 0
+33.53981
+**********
+65 50
+47.437954
+**********
+65 0
+**********
+[1;32m Epoch 65 In validation [0m
+avg_gd:  tensor(29.2404, device='cuda:0')
+avg_r:  tensor(58.4808, device='cuda:0')
+avg_t:  tensor(0.1474, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3260, device='cuda:0')
+[1;32m Epoch 66 In training [0m
+**********
+66 0
+43.710583
+**********
+66 50
+100.5859
+**********
+66 0
+**********
+[1;32m Epoch 66 In validation [0m
+avg_gd:  tensor(30.1376, device='cuda:0')
+avg_r:  tensor(60.2752, device='cuda:0')
+avg_t:  tensor(0.1454, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3157, device='cuda:0')
+[1;32m Epoch 67 In training [0m
+**********
+67 0
+73.81716
+**********
+67 50
+29.079702
+**********
+67 0
+**********
+[1;32m Epoch 67 In validation [0m
+avg_gd:  tensor(27.4088, device='cuda:0')
+avg_r:  tensor(54.8177, device='cuda:0')
+avg_t:  tensor(0.1378, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2966, device='cuda:0')
+[1;32m Epoch 68 In training [0m
+**********
+68 0
+55.23008
+**********
+68 50
+21.191488
+**********
+68 0
+**********
+[1;32m Epoch 68 In validation [0m
+avg_gd:  tensor(29.4465, device='cuda:0')
+avg_r:  tensor(58.8929, device='cuda:0')
+avg_t:  tensor(0.1454, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3215, device='cuda:0')
+[1;32m Epoch 69 In training [0m
+**********
+69 0
+31.429586
+**********
+69 50
+52.87056
+**********
+69 0
+**********
+[1;32m Epoch 69 In validation [0m
+avg_gd:  tensor(28.1723, device='cuda:0')
+avg_r:  tensor(56.3446, device='cuda:0')
+avg_t:  tensor(0.1392, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2966, device='cuda:0')
+[1;32m Epoch 70 In training [0m
+**********
+70 0
+35.676544
+**********
+70 50
+48.388573
+**********
+70 0
+**********
+[1;32m Epoch 70 In validation [0m
+avg_gd:  tensor(26.6521, device='cuda:0')
+avg_r:  tensor(53.3043, device='cuda:0')
+avg_t:  tensor(0.1465, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2993, device='cuda:0')
+[1;32m Epoch 71 In training [0m
+**********
+71 0
+55.55268
+**********
+71 50
+45.837845
+**********
+71 0
+**********
+[1;32m Epoch 71 In validation [0m
+avg_gd:  tensor(26.7361, device='cuda:0')
+avg_r:  tensor(53.4723, device='cuda:0')
+avg_t:  tensor(0.1450, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3061, device='cuda:0')
+[1;32m Epoch 72 In training [0m
+**********
+72 0
+48.521427
+**********
+72 50
+30.429224
+**********
+72 0
+**********
+[1;32m Epoch 72 In validation [0m
+avg_gd:  tensor(27.6166, device='cuda:0')
+avg_r:  tensor(55.2333, device='cuda:0')
+avg_t:  tensor(0.1477, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3470, device='cuda:0')
+[1;32m Epoch 73 In training [0m
+**********
+73 0
+39.16123
+**********
+73 50
+44.567383
+**********
+73 0
+**********
+[1;32m Epoch 73 In validation [0m
+avg_gd:  tensor(30.9341, device='cuda:0')
+avg_r:  tensor(61.8683, device='cuda:0')
+avg_t:  tensor(0.1472, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3133, device='cuda:0')
+[1;32m Epoch 74 In training [0m
+**********
+74 0
+55.76207
+**********
+74 50
+64.152336
+**********
+74 0
+**********
+[1;32m Epoch 74 In validation [0m
+avg_gd:  tensor(28.8320, device='cuda:0')
+avg_r:  tensor(57.6640, device='cuda:0')
+avg_t:  tensor(0.1482, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3543, device='cuda:0')
+[1;32m Epoch 75 In training [0m
+**********
+75 0
+24.86623
+**********
+75 50
+18.812183
+**********
+75 0
+**********
+[1;32m Epoch 75 In validation [0m
+avg_gd:  tensor(29.1098, device='cuda:0')
+avg_r:  tensor(58.2195, device='cuda:0')
+avg_t:  tensor(0.1418, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2837, device='cuda:0')
+[1;32m Epoch 76 In training [0m
+**********
+76 0
+38.58926
+**********
+76 50
+38.001175
+**********
+76 0
+**********
+[1;32m Epoch 76 In validation [0m
+avg_gd:  tensor(27.7297, device='cuda:0')
+avg_r:  tensor(55.4594, device='cuda:0')
+avg_t:  tensor(0.1529, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3452, device='cuda:0')
+[1;32m Epoch 77 In training [0m
+**********
+77 0
+64.77571
+**********
+77 50
+46.676456
+**********
+77 0
+**********
+[1;32m Epoch 77 In validation [0m
+avg_gd:  tensor(27.9795, device='cuda:0')
+avg_r:  tensor(55.9590, device='cuda:0')
+avg_t:  tensor(0.1509, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3417, device='cuda:0')
+[1;32m Epoch 78 In training [0m
+**********
+78 0
+20.018013
+**********
+78 50
+23.13631
+**********
+78 0
+**********
+[1;32m Epoch 78 In validation [0m
+avg_gd:  tensor(28.8300, device='cuda:0')
+avg_r:  tensor(57.6600, device='cuda:0')
+avg_t:  tensor(0.1451, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2979, device='cuda:0')
+[1;32m Epoch 79 In training [0m
+**********
+79 0
+33.974705
+**********
+79 50
+27.239143
+**********
+79 0
+**********
+[1;32m Epoch 79 In validation [0m
+avg_gd:  tensor(26.8879, device='cuda:0')
+avg_r:  tensor(53.7759, device='cuda:0')
+avg_t:  tensor(0.1503, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3343, device='cuda:0')
+[1;32m Epoch 80 In training [0m
+**********
+80 0
+72.0765
+**********
+80 50
+66.11137
+**********
+80 0
+**********
+[1;32m Epoch 80 In validation [0m
+avg_gd:  tensor(28.6514, device='cuda:0')
+avg_r:  tensor(57.3028, device='cuda:0')
+avg_t:  tensor(0.1500, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3430, device='cuda:0')
+[1;32m Epoch 81 In training [0m
+**********
+81 0
+24.481676
+**********
+81 50
+30.35578
+**********
+81 0
+**********
+[1;32m Epoch 81 In validation [0m
+avg_gd:  tensor(29.9430, device='cuda:0')
+avg_r:  tensor(59.8861, device='cuda:0')
+avg_t:  tensor(0.1454, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3637, device='cuda:0')
+[1;32m Epoch 82 In training [0m
+**********
+82 0
+48.02855
+**********
+82 50
+20.24749
+**********
+82 0
+**********
+[1;32m Epoch 82 In validation [0m
+avg_gd:  tensor(25.6652, device='cuda:0')
+avg_r:  tensor(51.3304, device='cuda:0')
+avg_t:  tensor(0.1591, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3139, device='cuda:0')
+[1;32m Epoch 83 In training [0m
+**********
+83 0
+34.971706
+**********
+83 50
+73.61634
+**********
+83 0
+**********
+[1;32m Epoch 83 In validation [0m
+avg_gd:  tensor(24.3066, device='cuda:0')
+avg_r:  tensor(48.6131, device='cuda:0')
+avg_t:  tensor(0.1490, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3231, device='cuda:0')
+[1;32m Epoch 84 In training [0m
+**********
+84 0
+33.12573
+**********
+84 50
+26.651697
+**********
+84 0
+**********
+[1;32m Epoch 84 In validation [0m
+avg_gd:  tensor(28.1695, device='cuda:0')
+avg_r:  tensor(56.3390, device='cuda:0')
+avg_t:  tensor(0.1416, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2888, device='cuda:0')
+[1;32m Epoch 85 In training [0m
+**********
+85 0
+53.83146
+**********
+85 50
+32.749832
+**********
+85 0
+**********
+[1;32m Epoch 85 In validation [0m
+avg_gd:  tensor(25.1856, device='cuda:0')
+avg_r:  tensor(50.3712, device='cuda:0')
+avg_t:  tensor(0.1419, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3167, device='cuda:0')
+[1;32m Epoch 86 In training [0m
+**********
+86 0
+34.80588
+**********
+86 50
+31.153194
+**********
+86 0
+**********
+[1;32m Epoch 86 In validation [0m
+avg_gd:  tensor(24.8894, device='cuda:0')
+avg_r:  tensor(49.7789, device='cuda:0')
+avg_t:  tensor(0.1412, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2723, device='cuda:0')
+[1;32m Epoch 87 In training [0m
+**********
+87 0
+23.035648
+**********
+87 50
+43.091553
+**********
+87 0
+**********
+[1;32m Epoch 87 In validation [0m
+avg_gd:  tensor(28.8917, device='cuda:0')
+avg_r:  tensor(57.7834, device='cuda:0')
+avg_t:  tensor(0.1412, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2716, device='cuda:0')
+[1;32m Epoch 88 In training [0m
+**********
+88 0
+27.863665
+**********
+88 50
+42.28617
+**********
+88 0
+**********
+[1;32m Epoch 88 In validation [0m
+avg_gd:  tensor(29.0277, device='cuda:0')
+avg_r:  tensor(58.0553, device='cuda:0')
+avg_t:  tensor(0.1564, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3195, device='cuda:0')
+[1;32m Epoch 89 In training [0m
+**********
+89 0
+51.426277
+**********
+89 50
+32.471943
+**********
+89 0
+**********
+[1;32m Epoch 89 In validation [0m
+avg_gd:  tensor(27.7784, device='cuda:0')
+avg_r:  tensor(55.5568, device='cuda:0')
+avg_t:  tensor(0.1531, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3372, device='cuda:0')
+[1;32m Epoch 90 In training [0m
+**********
+90 0
+41.119053
+**********
+90 50
+41.66273
+**********
+90 0
+**********
+[1;32m Epoch 90 In validation [0m
+avg_gd:  tensor(26.6660, device='cuda:0')
+avg_r:  tensor(53.3321, device='cuda:0')
+avg_t:  tensor(0.1414, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2826, device='cuda:0')
+[1;32m Epoch 91 In training [0m
+**********
+91 0
+22.889254
+**********
+91 50
+19.600601
+**********
+91 0
+**********
+[1;32m Epoch 91 In validation [0m
+avg_gd:  tensor(24.7120, device='cuda:0')
+avg_r:  tensor(49.4240, device='cuda:0')
+avg_t:  tensor(0.1446, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2799, device='cuda:0')
+[1;32m Epoch 92 In training [0m
+**********
+92 0
+67.60371
+**********
+92 50
+58.189163
+**********
+92 0
+**********
+[1;32m Epoch 92 In validation [0m
+avg_gd:  tensor(27.3687, device='cuda:0')
+avg_r:  tensor(54.7373, device='cuda:0')
+avg_t:  tensor(0.1536, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3133, device='cuda:0')
+[1;32m Epoch 93 In training [0m
+**********
+93 0
+47.93849
+**********
+93 50
+26.324778
+**********
+93 0
+**********
+[1;32m Epoch 93 In validation [0m
+avg_gd:  tensor(26.8928, device='cuda:0')
+avg_r:  tensor(53.7856, device='cuda:0')
+avg_t:  tensor(0.1416, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3188, device='cuda:0')
+[1;32m Epoch 94 In training [0m
+**********
+94 0
+64.94225
+**********
+94 50
+59.807037
+**********
+94 0
+**********
+[1;32m Epoch 94 In validation [0m
+avg_gd:  tensor(27.5988, device='cuda:0')
+avg_r:  tensor(55.1977, device='cuda:0')
+avg_t:  tensor(0.1547, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3386, device='cuda:0')
+[1;32m Epoch 95 In training [0m
+**********
+95 0
+32.794186
+**********
+95 50
+33.198936
+**********
+95 0
+**********
+[1;32m Epoch 95 In validation [0m
+avg_gd:  tensor(27.4146, device='cuda:0')
+avg_r:  tensor(54.8292, device='cuda:0')
+avg_t:  tensor(0.1409, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2875, device='cuda:0')
+[1;32m Epoch 96 In training [0m
+**********
+96 0
+30.51719
+**********
+96 50
+56.92311
+**********
+96 0
+**********
+[1;32m Epoch 96 In validation [0m
+avg_gd:  tensor(29.5304, device='cuda:0')
+avg_r:  tensor(59.0607, device='cuda:0')
+avg_t:  tensor(0.1433, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3401, device='cuda:0')
+[1;32m Epoch 97 In training [0m
+**********
+97 0
+22.641197
+**********
+97 50
+31.984282
+**********
+97 0
+**********
+[1;32m Epoch 97 In validation [0m
+avg_gd:  tensor(26.7308, device='cuda:0')
+avg_r:  tensor(53.4615, device='cuda:0')
+avg_t:  tensor(0.1432, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2973, device='cuda:0')
+[1;32m Epoch 98 In training [0m
+**********
+98 0
+63.156494
+**********
+98 50
+41.58612
+**********
+98 0
+**********
+[1;32m Epoch 98 In validation [0m
+avg_gd:  tensor(28.3503, device='cuda:0')
+avg_r:  tensor(56.7005, device='cuda:0')
+avg_t:  tensor(0.1423, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3045, device='cuda:0')
+[1;32m Epoch 99 In training [0m
+**********
+99 0
+60.054874
+**********
+99 50
+38.475903
+**********
+99 0
+**********
+[1;32m Epoch 99 In validation [0m
+avg_gd:  tensor(26.5515, device='cuda:0')
+avg_r:  tensor(53.1030, device='cuda:0')
+avg_t:  tensor(0.1375, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3290, device='cuda:0')
+[1;32m Epoch 100 In training [0m
+**********
+100 0
+18.112787
+**********
+100 50
+21.233576
+**********
+100 0
+**********
+[1;32m Epoch 100 In validation [0m
+avg_gd:  tensor(27.1587, device='cuda:0')
+avg_r:  tensor(54.3175, device='cuda:0')
+avg_t:  tensor(0.1438, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2944, device='cuda:0')
+[1;32m Epoch 101 In training [0m
+**********
+101 0
+59.802723
+**********
+101 50
+25.940855
+**********
+101 0
+**********
+[1;32m Epoch 101 In validation [0m
+avg_gd:  tensor(24.6888, device='cuda:0')
+avg_r:  tensor(49.3776, device='cuda:0')
+avg_t:  tensor(0.1508, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3024, device='cuda:0')
+[1;32m Epoch 102 In training [0m
+**********
+102 0
+36.297825
+**********
+102 50
+22.025627
+**********
+102 0
+**********
+[1;32m Epoch 102 In validation [0m
+avg_gd:  tensor(25.7244, device='cuda:0')
+avg_r:  tensor(51.4488, device='cuda:0')
+avg_t:  tensor(0.1366, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2661, device='cuda:0')
+[1;32m Epoch 103 In training [0m
+**********
+103 0
+23.726212
+**********
+103 50
+23.793444
+**********
+103 0
+**********
+[1;32m Epoch 103 In validation [0m
+avg_gd:  tensor(26.8770, device='cuda:0')
+avg_r:  tensor(53.7540, device='cuda:0')
+avg_t:  tensor(0.1390, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.3102, device='cuda:0')
+[1;32m Epoch 104 In training [0m
+**********
+104 0
+54.129154
+**********
+104 50
+66.9465
+**********
+104 0
+**********
+[1;32m Epoch 104 In validation [0m
+avg_gd:  tensor(27.5439, device='cuda:0')
+avg_r:  tensor(55.0878, device='cuda:0')
+avg_t:  tensor(0.1465, device='cuda:0')
+avg_CD_1:  0.0
+avg_CD_2:  tensor(0.2927, device='cuda:0')
+[1;32m Epoch 105 In training [0m
+**********
+105 0
+55.42584

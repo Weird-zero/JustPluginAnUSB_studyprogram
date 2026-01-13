@@ -1,0 +1,18 @@
+{"time":"2025-11-22T16:09:31.778218015+08:00","level":"INFO","msg":"using version","core version":"0.17.5"}
+{"time":"2025-11-22T16:09:31.778231076+08:00","level":"INFO","msg":"created symlink","path":"/home/w/PycharmProjects/TwoByTwo-main/src/wandb/run-20251122_160931-fjaewai6/logs/debug-core.log"}
+{"time":"2025-11-22T16:09:31.785911652+08:00","level":"INFO","msg":"created new stream","id":"fjaewai6"}
+{"time":"2025-11-22T16:09:31.785959143+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fjaewai6"}}
+{"time":"2025-11-22T16:09:31.785997137+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"fjaewai6"}}
+{"time":"2025-11-22T16:09:31.78595202+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"fjaewai6"}}
+{"time":"2025-11-22T16:09:32.340704748+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2025-11-22T16:09:32.380841071+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-22T16:09:33.033021586+08:00","level":"WARN","msg":"sender: sendMetric: glob name is not supported in the backend","globName":"test/epoch/*"}
+{"time":"2025-11-22T16:09:33.033056017+08:00","level":"WARN","msg":"sender: sendMetric: glob name is not supported in the backend","globName":"train/network_B/*"}
+{"time":"2025-11-22T16:10:23.712066197+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-11-22T16:10:23.714143951+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-11-22T16:10:23.998214566+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-11-22T16:10:23.998225252+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-11-22T16:10:23.998231188+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-11-22T16:10:25.001293938+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"fjaewai6"}}
+{"time":"2025-11-22T16:10:25.001321246+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"fjaewai6"}}
+{"time":"2025-11-22T16:10:25.001401982+08:00","level":"INFO","msg":"closed stream","id":"fjaewai6"}

@@ -1,0 +1,18 @@
+{"time":"2025-11-22T16:11:42.055104823+08:00","level":"INFO","msg":"using version","core version":"0.17.5"}
+{"time":"2025-11-22T16:11:42.05511907+08:00","level":"INFO","msg":"created symlink","path":"/home/w/PycharmProjects/TwoByTwo-main/src/wandb/run-20251122_161142-ht2tnbvz/logs/debug-core.log"}
+{"time":"2025-11-22T16:11:42.062864929+08:00","level":"INFO","msg":"created new stream","id":"ht2tnbvz"}
+{"time":"2025-11-22T16:11:42.062921919+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ht2tnbvz"}}
+{"time":"2025-11-22T16:11:42.062944477+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ht2tnbvz"}}
+{"time":"2025-11-22T16:11:42.062944477+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ht2tnbvz"}}
+{"time":"2025-11-22T16:11:42.593951364+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2025-11-22T16:11:42.634839146+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-22T16:11:43.208994405+08:00","level":"WARN","msg":"sender: sendMetric: glob name is not supported in the backend","globName":"test/epoch/*"}
+{"time":"2025-11-22T16:11:43.209030024+08:00","level":"WARN","msg":"sender: sendMetric: glob name is not supported in the backend","globName":"train/network_B/*"}
+{"time":"2025-11-22T16:53:17.235776175+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-11-22T16:53:17.23919678+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-11-22T16:53:17.484085311+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-11-22T16:53:17.484099559+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-11-22T16:53:17.484105495+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-11-22T16:53:18.496254507+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ht2tnbvz"}}
+{"time":"2025-11-22T16:53:18.496306748+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"ht2tnbvz"}}
+{"time":"2025-11-22T16:53:18.496372049+08:00","level":"INFO","msg":"closed stream","id":"ht2tnbvz"}

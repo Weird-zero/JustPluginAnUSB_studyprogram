@@ -1,0 +1,4 @@
+processed_cups/4
+processed_cups/6
+processed_cups/10
+processed_cups/11

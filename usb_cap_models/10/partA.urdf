@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="partA_10">
+  <link name="part_link">
+    <visual>
+      <geometry>
+        <mesh filename="Shape_Data_Mesh/usb_cap/10/partA_new.obj" scale="1 1 1"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="Shape_Data_Mesh/usb_cap/10/vhacd_partA_new.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+  </link>
+</robot>

@@ -1,0 +1,27 @@
+feat_dim is:  512
+feat_dim is:  512
+pc_feature.size is 3072
+pc_feature.size is 3072
+100% |######################################################################|
+fileA is /home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/plate_kettle/21/partA-pc.csv
+fileB is /home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/plate_kettle/21/partB-pc.csv
+file not exists
+Len of Train Data:  355
+100% |######################################################################|
+fileA is /home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/plug_in_socket/15/partA-pc.csv
+fileB is /home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/plug_in_socket/15/partB-pc.csv
+file not exists
+Len of Val Data:  159
+[33mNumber of batches in val_dataloader: 40[0m
+[33mNumber of samples in val_data: 159[0m
+  0%|                                               | 0/1000 [00:47<?, ?it/s]
+[1;32m Epoch 1 In training [0m
+**********
+1 0
+145.95012
+**********
+1 50
+99.96693
+**********
+1 0
+**********

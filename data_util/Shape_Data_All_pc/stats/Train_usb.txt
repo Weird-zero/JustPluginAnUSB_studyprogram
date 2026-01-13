@@ -1,0 +1,12 @@
+usb_cap/1
+usb_cap/2
+usb_cap/3
+usb_cap/7
+usb_cap/8
+usb_cap/9
+usb_cap/10
+usb_cap/11
+usb_cap/15
+usb_cap/16
+usb_cap/17
+usb_cap/20

@@ -1,0 +1,12 @@
+processed_cups/1
+processed_cups/2
+processed_cups/3
+processed_cups/5
+processed_cups/7
+processed_cups/8
+processed_cups/9
+processed_cups/12
+processed_cups/13
+bottle_partnet_processed/8848
+bottle_partnet_processed/8736
+processed_cups/7

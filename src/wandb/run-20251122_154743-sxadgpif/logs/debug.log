@@ -1,0 +1,28 @@
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_setup.py:_flush():76] Current SDK version is 0.17.5
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_setup.py:_flush():76] Configure stats pid to 102232
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_setup.py:_flush():76] Loading settings from /home/w/.config/wandb/settings
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_setup.py:_flush():76] Loading settings from /home/w/PycharmProjects/TwoByTwo-main/src/wandb/settings
+2025-11-22 15:47:43,921 WARNING MainThread:102232 [wandb_setup.py:_flush():76] Unknown environment variable: WANDB_SERVICE
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_core': 'true'}
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'script/our_train_B.py', 'program_abspath': '/home/w/PycharmProjects/TwoByTwo-main/src/script/our_train_B.py', 'program': '/home/w/PycharmProjects/TwoByTwo-main/src/script/our_train_B.py'}
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_init.py:_log_setup():529] Logging user logs to /home/w/PycharmProjects/TwoByTwo-main/src/wandb/run-20251122_154743-sxadgpif/logs/debug.log
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_init.py:_log_setup():530] Logging internal logs to /home/w/PycharmProjects/TwoByTwo-main/src/wandb/run-20251122_154743-sxadgpif/logs/debug-internal.log
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_init.py:init():569] calling init triggers
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {'exp': CfgNode({'name': 'network_B', 'checkpoint_dir': 'checkpoints', 'weight_file': '', 'gpus': [0], 'num_workers': 4, 'batch_size': 4, 'num_epochs': 1000, 'log_dir': '/home/w/two-by-two/logs/network_B', 'load_from': '', 'ckpt_name': '', 'vis_dir': '/home/w/two-by-two/logs/network_B'}), 'model': CfgNode({'encoderA': 'vn_dgcnn', 'encoderB': 'vn_dgcnn', 'encoder': '', 'encoder_geo': '', 'pose_predictor_quat': 'original', 'pose_predictor_rot': 'original', 'pose_predictor_trans': 'original', 'corr_module': 'yes', 'sdf_predictor': '', 'aggregator': '', 'pc_feat_dim': 512, 'transformer_feat_dim': 1024, 'num_heads': 4, 'num_blocks': 1, 'recon_loss': False, 'point_loss': True, 'corr_feat': 'False'}), 'cls_model': CfgNode({'encoder': 'vn_dgcnn', 'point_loss': False, 'recon_loss': False, 'corr_module': 'No', 'pc_feat_dim': 512, 'num_heads': 4, 'num_blocks': 1, 'PCA_obb': False}), 'data': CfgNode({'root_dir': '/home/Shape_Data_pc', 'train_csv_file': '/home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/stats/Train_all.txt', 'val_csv_file': '/home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/stats/Test_all.txt', 'num_pc_points': 1024, 'translation': ''}), 'cls_data': CfgNode({'root_dir': '', 'train_csv_file': '', 'val_csv_file': '', 'num_pc_points': 1024, 'translation': ''}), 'optimizer': CfgNode({'lr': 0.0001, 'lr_decay': 0.0, 'decay_step': 20000.0, 'weight_decay': 1e-06, 'lr_clip': 1e-05}), 'gpus': [0]}
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_init.py:init():619] starting backend
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [wandb_init.py:init():623] setting up manager
+2025-11-22 15:47:43,921 INFO    MainThread:102232 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-11-22 15:47:43,922 INFO    MainThread:102232 [wandb_init.py:init():631] backend started and connected
+2025-11-22 15:47:43,924 INFO    MainThread:102232 [wandb_init.py:init():720] updated telemetry
+2025-11-22 15:47:43,924 INFO    MainThread:102232 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2025-11-22 15:47:44,517 INFO    MainThread:102232 [wandb_run.py:_on_init():2435] communicating current version
+2025-11-22 15:47:44,518 INFO    MainThread:102232 [wandb_run.py:_on_init():2444] got version response 
+2025-11-22 15:47:44,518 INFO    MainThread:102232 [wandb_init.py:init():804] starting run threads in backend
+2025-11-22 15:47:44,637 INFO    MainThread:102232 [wandb_run.py:_console_start():2413] atexit reg
+2025-11-22 15:47:44,637 INFO    MainThread:102232 [wandb_run.py:_redirect():2255] redirect: wrap_raw
+2025-11-22 15:47:44,637 INFO    MainThread:102232 [wandb_run.py:_redirect():2320] Wrapping output streams.
+2025-11-22 15:47:44,637 INFO    MainThread:102232 [wandb_run.py:_redirect():2345] Redirects installed.
+2025-11-22 15:47:44,639 INFO    MainThread:102232 [wandb_init.py:init():847] run started, returning control to user process

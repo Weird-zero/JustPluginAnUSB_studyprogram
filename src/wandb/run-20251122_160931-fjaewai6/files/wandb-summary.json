@@ -1,0 +1,1 @@
+{"_runtime":18.898762545,"_step":88,"_wandb":{"runtime":51},"train/network_B/total_loss":89.65668487548828,"train/network_B/rot_loss":85.6375732421875,"train/network_B/trans_loss":0.4958575665950775,"train/network_B/step":177,"_timestamp":1.7637989906764019e+09}

@@ -1,0 +1,47 @@
+exp:
+    name: 'eval'
+    checkpoint_dir: 'checkpoints'
+    num_workers: 0
+    batch_size: 4
+    num_epochs: 1000
+    gpus: [0]
+    log_dir: '/home/w/two-by-two/logs/eval' # checkpoints will be read from this dir
+    vis_dir: '/home/w/two-by-two/logs/eval'
+
+model:
+    encoderA: 'vn_dgcnn'
+    encoderB: 'vn_dgcnn'
+    pose_predictor_quat: 'original'
+    pose_predictor_rot: 'original'
+    pose_predictor_trans: 'original'
+    point_loss: 'True'
+    recon_loss: 'False'
+    corr_module: 'yes'
+    pc_feat_dim: 512
+    num_heads: 4
+    num_blocks: 1
+
+cls_model:
+    encoder: 'vn_dgcnn'
+    point_loss: 'False'
+    recon_loss: 'False'
+    corr_module: 'No'
+    pc_feat_dim: 512
+    num_heads: 4
+    num_blocks: 1
+
+# gpus: [0,1,2,3,4,5,6,7]
+
+# please modify the data path to the path of the generated point cloud
+data:
+    root_dir: '/home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc'
+    train_csv_file: '/home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/stats/Train_all.txt'
+    val_csv_file: '/home/w/PycharmProjects/TwoByTwo-main/data_util/Shape_Data_All_pc/stats/Test_all.txt'
+    num_pc_points: 1024
+    translation: ''
+
+optimizer:
+    lr: 1e-4
+    lr_decay: 0.0
+    weight_decay: 1e-6
+    lr_clip: 1e-5
