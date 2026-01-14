@@ -4,6 +4,7 @@ import numpy as np
 import cv2
 import time
 def main():
+    #this is a test for new branch
     model=mujoco.MjModel.from_xml_path("mujoco_arm_models/universal_robots_ur5e/scene.xml")
     data=mujoco.MjData(model)
     renderer=mujoco.Renderer(model,height=400,width=400)
